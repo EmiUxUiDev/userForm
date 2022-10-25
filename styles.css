@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #eeeeee;
+}
+nav{
+    height: 3rem;
+    background-color: aquamarine;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center; 
+    margin-bottom: 2rem;
+}
+
+ul{
+    margin-left: -2.5rem;
+}
+
+ul li{
+    display: inline;
+    list-style: none;
+    margin: 0 1rem 01rem;
+}
+
+#secc_form{
+    width: 100%;
+    margin: 10rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    align-items:center;
+}
+form{width: 60%;}
+label{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+button{
+    width: 100%;
+}
+.bold{
+    font-weight: bold;
+}
+#secc_card{
+    background-color: #ff9d25;
+    margin: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 10px;   
+}
